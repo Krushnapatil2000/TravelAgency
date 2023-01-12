@@ -1,0 +1,142 @@
+*
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Navigation*/
+nav
+{
+    background-color:black;
+}
+
+li a:hover
+{
+    color: white;
+    text-decoration: none;
+    border-bottom:2px rgb(194, 67, 67) solid; 
+}
+
+/*login form*/
+.margin-login
+{
+    margin-left:20px;
+    margin-right: 5px; 
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    position: fixed;
+    top: 60px;
+    right: 140px;
+    z-index: 9;
+    border: 5px solid white;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color:#847f82;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+
+
+
+
+  
+/*Main image slider*/
+.text-heading
+{
+    position: absolute;
+    top: 210px;
+    left: 300px;
+    color: white;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    font-size: 50px;
+    letter-spacing: 1.8px;
+}
+.img-slider
+{
+    width: 100%;
+    height: 600px;
+}
+
+/*offers*/
+.img-size
+{
+    width: 100%;
+    height: 250px;
+}
+.card:hover
+ {
+    box-shadow: 0 8px 17px 0 rgba(10, 10, 10, 0.274),
+    0 6px 20px 0 rgba(10, 10, 10, 0.418);
+}
+
+
+
+/*gallary*/
+.name-effect
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+div.col-md-2 img:hover 
+{
+    box-shadow: 0 8px 17px 0 rgba(10, 10, 10, 0.274),
+    0 6px 20px 0 rgba(10, 10, 10, 0.418);
+
+}
+
+
+
+
+/*Reviews*/
+.profile-effect
+{
+    margin-bottom: 10px;
+}
+.profile-size
+{
+    width: 100%;
+    height: 250px;
+}
+
+
+
+/*about*/
+.img-about
+{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.line-effect
+{
+    line-height: 0.8cm;
+}
+.card-about
+{
+    margin-top: 50px;
+}
+
+/*contact*/
+.img-contact
+{
+    width: 35px;
+    height: 40px;
+}
